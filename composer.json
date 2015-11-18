@@ -1,0 +1,19 @@
+{
+    "name": "peterhough/sainsburys",
+    "description": "Response to the Sainsbury's Software Engineering Test",
+    "authors": [
+        {
+            "name": "Peter Hough",
+            "email": "email@peterhough.co.uk"
+        }
+    ],
+    "require-dev": {
+        "codeception/codeception": "*"
+    },
+    "require": {
+        "fabpot/goutte": "^3.1"
+    },
+    "autoload": {
+        "psr-4": { "Sainsburys\\": "src\\Sainsburys" }
+    }
+}

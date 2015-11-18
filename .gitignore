@@ -1,0 +1,9 @@
+# Editor
+.idea
+
+# Composer
+vendor
+composer.lock
+
+# Codeception
+tests/_output/*
