@@ -38,6 +38,17 @@ Fixtures::add(
     )
 );
 
+for ($page=2; $page<=7; $page++) {
+    Fixtures::add(
+        'aleAndStoutPage' . $page,
+        new GuzzleResponse(
+            200,
+            ['Content-Type' => 'text/html; charset=UTF-8'],
+            file_get_contents($fixtureDir . 'ale-stout_page' . $page . '.html')
+        )
+    );
+}
+
 // http://www.sainsburys.co.uk/shop/gb/groceries/ale-stout/adnams-broadside-ale-500ml
 Fixtures::add(
     'broadside',
