@@ -6,6 +6,7 @@ Installation
 ============
 ```
 git clone https://github.com/peterhough/sainsburys.git
+cd sainsburys
 composer install
 ```
 
@@ -31,6 +32,7 @@ vendor/bin/codecept run
 
 Dependencies
 ============
+* https://getcomposer.org
 * https://github.com/FriendsOfPHP/Goutte
 * https://github.com/Codeception/Codeception
 
